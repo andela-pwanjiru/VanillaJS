@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Javascript</title>
+</head>
+
+<body>
+    <div>
+        <p id="yes">this is awesome</p>
+        <button type="button" onclick="changeText()" id="btn">Click here</button>
+        <button type="button" onclick="changeText()">Tshirt</button>
+        <div>
+            <img id="image" src="black.jpg" alt="">
+        </div>
+    </div>
+</body>
+<script>
+function changeText() {
+    document.getElementById("yes").innerHTML = "slaying"
+    document.getElementById("image").src = "grey.jpg"
+}
+</script>
+
+</html>
